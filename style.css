@@ -1,0 +1,37 @@
+form {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto; /* Center the form horizontally */
+    background-image: url('1.jpg');
+}
+legend{
+    color:black;
+    font-size: 50px;
+  background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input{
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+}
+#one {
+    background-color:whitesmoke;
+    color:brown;
+}
+
+#one:hover {
+    background-color: aqua;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
